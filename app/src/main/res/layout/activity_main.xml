@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#4682B4"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:textColor="#ffffff"
+        android:textFontWeight="900"
+        android:text="Quiz!" />
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:text="Rozpocznij grę!"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+            android:backgroundTint="#004156"
+            android:layout_height="wrap_content"
+            android:text="@string/button_true"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_false"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:backgroundTint="#004156"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_next"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="20dp"
+            android:backgroundTint="#004156"
+            android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/hint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_hint"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        android:backgroundTint="#004156"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

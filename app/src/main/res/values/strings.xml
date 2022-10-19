@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz2</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następny</string>
+    <string name="button_hint">Podpowiedź</string>
+    <string name="button_show_hint">Pokaż</string>
+    <string name="answer_was_shown">Odpowiedź była już wyświetlona!</string>
+    <string name="correct_answer">Poprawna odpowiedż!</string>
+    <string name="incorrect_answer">Nieprawidłowa odpowiedż!</string>
+    <string name="q_warsaw">Stolicą polski jest Warszawa</string>
+    <string name="q_months">Jedynie jeden miesiąc ma 29 dni</string>
+    <string name="q_sun">Jądro Ziemi jest tak gorące jak Słońce</string>
+    <string name="q_china">Mur Chiński jest jedynym obiektem zbudowanym przez człowieka widocznym z kosmosu</string>
+    <string name="q_eyes">Ludzkie oczy nie zmieniają swojego rozmiaru od urodzenia</string>
+</resources>

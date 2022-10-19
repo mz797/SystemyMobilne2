@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#4682B4"
+    android:padding="10dp"
+    tools:context=".PromptActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="70dp"
+        android:text="Czy na pewno chcesz zobaczyć podpowiedź?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="235dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="476dp"
+        tools:text="" />
+
+    <Button
+        android:id="@+id/show_hint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pokaż"
+        android:backgroundTint="#004156"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="368dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="15dp"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>
